@@ -1,0 +1,36 @@
+{
+  "export_timestamp_utc": "2026-10-23T05:32:35.261405+00:00",
+  "application_version": "1.0.0",
+  "dataset_type": "synthetic",
+  "applied_filters": {
+    "owner": "All"
+  },
+  "exported_files": [
+    {
+      "filename": "conversations.csv",
+      "record_count": 32,
+      "size_bytes": 38528,
+      "sha256_checksum": "30ba5f23db618d87155fa92c84b9fbbbd6f9ee6595e55e2d7f538f906dc1b909"
+    },
+    {
+      "filename": "conversations.json",
+      "record_count": 32,
+      "size_bytes": 61644,
+      "sha256_checksum": "511daffc7032510151b44e585c4a48e6ed1080d090afe6783966561c27cf1e77"
+    },
+    {
+      "filename": "routing_review.csv",
+      "record_count": 32,
+      "size_bytes": 22279,
+      "sha256_checksum": "2d7572a2540a25535f9aad682e70b53ddc0e3f4d746d19a0823fda2cf0e6f8d5"
+    },
+    {
+      "filename": "findings.json",
+      "record_count": 3,
+      "size_bytes": 4484,
+      "sha256_checksum": "bca0dfccbf7b7aa7c2038b3be9d1fbb417ffcc77e58e1fa8503fb32fffd6435f"
+    }
+  ],
+  "total_files": 4,
+  "total_records_exported": 99
+}

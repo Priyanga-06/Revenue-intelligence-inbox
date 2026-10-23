@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-10-23T05:32:35.258401+00:00",
+  "finding_count": 3,
+  "filters_applied": {
+    "owner": "All"
+  },
+  "record_count": 32,
+  "findings": [
+    {
+      "finding_statement": "4 conversation(s) show competitor risk signals, representing $325,000 (12.0%) of total pipeline value.",
+      "supporting_metric": "Competitor-risk conversations: 4 / 32 total = 12.5%. Pipeline at risk: $325,000 of $2,700,000.",
+      "conversation_ids": [
+        "CONV-030",
+        "CONV-015",
+        "CONV-009",
+        "CONV-003"
+      ],
+      "evidence_excerpts": [
+        "ly happy. But we're evaluating other options. We're comparing wit",
+        "Sarah: We're evaluating other solutions. We've been comparin",
+        "Michelle: We're considering switching to another vendor. We've been looking",
+        "Emily: We're comparing you against a couple of other vendors right now. We're evaluating SA"
+      ],
+      "business_impact": "At-risk pipeline of $325,000 could churn to competitors if not addressed with competitive differentiation and proactive engagement.",
+      "recommended_action": "Escalate competitor-risk conversations to senior reps. Prepare competitive battle cards and schedule executive alignment calls within 48 hours.",
+      "data_source": "synthetic"
+    },
+    {
+      "finding_statement": "7 high-intent sales conversations are in the pipeline with a combined value of $975,000 (average deal size: $139,286). 7 are still open and require action.",
+      "supporting_metric": "High-intent conversations: 7 / 32 total = 21.9%. Combined pipeline value: $975,000. Open and requiring action: 7.",
+      "conversation_ids": [
+        "CONV-032",
+        "CONV-028",
+        "CONV-025",
+        "CONV-019",
+        "CONV-013",
+        "CONV-007",
+        "CONV-001"
+      ],
+      "evidence_excerpts": [
+        "eat demo. We want to proceed with the implementation. The CFO has approve",
+        "Lucas: We want to proceed with the full platform. Leadership approved",
+        "ise plan. We're ready to move forward with the expansion. Send us the updated",
+        "Grace: We want to proceed with the full implementation. The board has appro",
+        "Sophia: We're ready to move forward with the implementation. Leadership has appr",
+        "Anna: We want to proceed with the full enterprise package. Let's do this. Our",
+        "ast week. We've reviewed it internally and we're ready to move forward. Let's get the contr"
+      ],
+      "business_impact": "$975,000 in high-intent pipeline represents the highest-value near-term revenue opportunity. Delays in contract delivery risk losing these deals.",
+      "recommended_action": "Prioritize contract preparation for all high-intent conversations. Set a 24-hour SLA for contract delivery and schedule closing calls.",
+      "data_source": "synthetic"
+    },
+    {
+      "finding_statement": "5 conversation(s) flagged as customer support issues, with 10 total negative-sentiment interactions (31.2% of all conversations). These may signal product reliability or service quality concerns.",
+      "supporting_metric": "Support-issue conversations: 5. Negative-sentiment conversations: 10 / 32 = 31.2%. Combined at-risk accounts: 10.",
+      "conversation_ids": [
+        "CONV-031",
+        "CONV-026",
+        "CONV-016",
+        "CONV-010",
+        "CONV-004",
+        "CONV-030",
+        "CONV-017",
+        "CONV-015",
+        "CONV-009",
+        "CONV-005"
+      ],
+      "evidence_excerpts": [
+        "Charlotte: The platform crashed during our peak processing time. The system was down",
+        "Henry: There's a problem with the receipt export feature. It's not working an",
+        "Daniel: I'm frustrated. The mobile app is b",
+        "James: The platform has been mostly good but we've had some issues. There's a bug in th",
+        "David: I'm calling about a problem with the expense module. It's been broken fo"
+      ],
+      "business_impact": "10 account(s) with support or dissatisfaction signals are at risk of churn. Negative sentiment trends can signal broader product issues that impact retention and expansion revenue.",
+      "recommended_action": "Route all support issues to the customer success team with a 4-hour acknowledgment SLA. Conduct a root-cause analysis on recurring issues and share resolution timelines with affected accounts.",
+      "data_source": "synthetic"
+    }
+  ]
+}
